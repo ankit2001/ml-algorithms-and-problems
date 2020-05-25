@@ -4,7 +4,7 @@ class Perceptron:
 	def __init__(self, learning_rate = 0.001, n_iter = 10000):
 		self.learning_rate = learning_rate
 		self.n_iter = n_iter
-		self.activation_function = unit_step_function
+		self.activation_function = self.unit_step_function
 		self.weights = None
 		self.bias = None
 
